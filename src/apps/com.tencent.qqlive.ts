@@ -15,11 +15,13 @@ export default defineAppConfig({
       rules: [
         {
           matches: 'TextView[text*="跳过"][text.length<=10]',
+          action: 'longClick',
           snapshotUrls: [
             'https://i.gkd.li/import/12700227',
             'https://i.gkd.li/import/12700122',
             'https://i.gkd.li/import/12700541',
             'https://i.gkd.li/import/12910953',
+            'https://i.gkd.li/snapshot/1705590023836',
           ],
         },
       ],
